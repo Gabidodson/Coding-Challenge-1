@@ -50,21 +50,21 @@ console.log(accountBalance)
 
 //Task 4: Comparison Operators
 
-let employeeScore1=8
-let employeeScore2=6
+const employeeScore1=8
+const employeeScore2=6
 
 employeeScore1>employeeScore2
-//True
+console.log(true) //T
 employeeScore1<employeeScore2
-//False
+console.log(false) //F
 employeeScore1<=employeeScore2
-//False
+console.log(false) //F
 employeeScore1>=employeeScore2
-//True
+console.log(true) //T
 employeeScore1!==employeeScore2
-//True
+console.log(true) //T
 employeeScore1===employeeScore2
-//False
+console.log(false) //F
 
 
 
@@ -74,10 +74,14 @@ haskeyCard=true
 hasPermission=false
 
 can_access_breakroom= haskeyCard&&hasPermission
-//True can access
-access_to_office=haskeyCard||hasPermission
-//True can access
-no_access_confidential=!hasPermission
-//False cant access
+var ispermitted=true
+console.log(true) //True can access
 
+access_to_office=haskeyCard||hasPermission
+var ispermitted=true
+console.log(true)//True can access
+
+no_access_confidential=!hasPermission
+var isnotpermitted=false; //False cant access
+console.log(false)
 
