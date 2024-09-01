@@ -8,6 +8,7 @@ console.log(employeeID,typeof(employeeID));
 console.log(isActive,typeof(isActive));
 
 
+
 //Task 2: Compound Data Types
 
 let product = ["dog-collar","food","treats"];
@@ -44,5 +45,26 @@ let percent=1.5
 accountBalance%=percent
 console.log(accountBalance)
 //40.95
+
+
+
+//Task 4: Comparison Operators
+let employeeScore1=8
+let employeeScore2=6
+
+employeeScore1>employeeScore2
+//True
+employeeScore1<employeeScore2
+//False
+employeeScore1<=employeeScore2
+//False
+employeeScore1>=employeeScore2
+//True
+employeeScore1!==employeeScore2
+//True
+employeeScore1===employeeScore2
+//False
+
+
 
 
