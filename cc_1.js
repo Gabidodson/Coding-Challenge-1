@@ -49,6 +49,7 @@ console.log(accountBalance)
 
 
 //Task 4: Comparison Operators
+
 let employeeScore1=8
 let employeeScore2=6
 
@@ -66,5 +67,17 @@ employeeScore1===employeeScore2
 //False
 
 
+
+//Task 5: Logical Operators
+
+haskeyCard=true
+hasPermission=false
+
+can_access_breakroom= haskeyCard&&hasPermission
+//True can access
+access_to_office=haskeyCard||hasPermission
+//True can access
+no_access_confidential=!hasPermission
+//False cant access
 
 
